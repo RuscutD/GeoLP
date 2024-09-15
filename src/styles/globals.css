@@ -39,7 +39,7 @@ section {
 
 @layer base {
   section {
-    @apply max-w-[1440px] grid grid-cols-12 gap-[24px];
+    @apply max-w-[1440px] grid grid-cols-12 gap-[24px] mx-[64px];
   }
 }
 
@@ -65,6 +65,7 @@ section {
 header {
   z-index: 10;
   width: 100%;
+  max-width: 1440px;
 
   position: fixed;
   display: flex;
@@ -132,8 +133,8 @@ h3 {
   border-radius: 32px;
   background-color: #063c4d;
   border: solid #0089b4 4px;
-  margin-bottom: 64px;
   padding: 48px 24px;
+  margin-bottom: 64px;
 }
 
 .blueBorderComponent {

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Garantie = () => {
   return (
-    <section>
+    <section className="mx-0">
       <Image
         alt="Lg"
         width={549}
@@ -11,7 +11,7 @@ export const Garantie = () => {
         src="/images/lg.png"
         className="col-span-4"
       />
-      <div className="col-span-6">
+      <div className="col-span-6 col-end-12">
         <h2>Les garanties LG</h2>
         <br />
         <p>

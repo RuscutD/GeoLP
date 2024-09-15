@@ -29,7 +29,7 @@ export const SubFooter = () => {
   ];
 
   return (
-    <section className="bg-thirdary">
+    <section className="bg-thirdary mx-0">
       {Footer.map((elm: any, i: number) => {
         return (
           <div key={i} className="col-span-3">

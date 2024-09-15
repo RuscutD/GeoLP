@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Solution = () => {
   return (
-    <section className="bg-secondary">
+    <section className="bg-secondary mx-0">
       <Image
         alt="illustration"
         width={632}

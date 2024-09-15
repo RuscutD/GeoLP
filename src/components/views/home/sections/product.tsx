@@ -8,10 +8,10 @@ export const Product = () => {
         <h2>Les plus du produit</h2>
         <br />
         <div className="flex font-bold gap-4">
-          <Tag className="tag" value="Puissance" />
-          <Tag className="tag" value="Réfrigerant" />
-          <Tag className="tag" value="Temp. sortie d’eau" />
-          <Tag className="tag" value="Courant" />
+          <Tag className="tag" value="Puissance" sub="9kW" />
+          <Tag className="tag" value="Réfrigerant" sub="R32" />
+          <Tag className="tag" value="Temp. sortie d’eau" sub="65°C" />
+          <Tag className="tag" value="Courant" sub="Monophasé" />
         </div>
         <br />
         <br />

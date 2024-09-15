@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Switch = () => {
   return (
-    <section className="bg-secondary relative py-[24px] mt-[128px]">
+    <section className="bg-secondary relative py-[24px] mt-[128px] mx-0">
       <div className="col-span-5 col-start-2">
         <h2>Tout est prévu</h2>
         <br />
