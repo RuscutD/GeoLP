@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #06232e;
+}
+
+body {
+  color: #fafdf9;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+button {
+  background-color: #00c575;
+  font-weight: bold;
+  border-radius: 38px;
+  font-size: 18px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+button:hover {
+  background-color: #1e855b;
+}
+
+section {
+  padding: 118px 64px;
+  width-max: 800px;
+}
+
+@layer base {
+  section {
+    @apply max-w-[1440px] grid grid-cols-12 gap-[24px];
+  }
+}
+
+@layer base {
+  footer {
+    @apply max-w-[1440px] grid grid-cols-12 gap-[24px];
+  }
+}
+
+.tag {
+  background-color: #0089b4;
+  border-radius: 38px;
+  padding: 6px 12px;
+}
+
+.bg-header {
+  background: rgba(6, 35, 46, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+}
+
+header {
+  z-index: 10;
+  width: 100%;
+
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 24px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.price {
+  font-size: 34px;
+  font-weight: regular;
+}
+
+.oldPrice {
+  font-size: 24px;
+  font-weight: regular;
+  color: #9c354e;
+  text-decoration: line-through;
+}
+
+.promotionTag {
+  background-color: #9c354e;
+}
+
+.redRing {
+  border-radius: 999px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: solid #9c354e 4px;
+  padding: 12px;
+}
+
+.greenRing {
+  border-radius: 999px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: solid #00c575 4px;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+.blueBorderSection {
+  border-radius: 32px;
+  background-color: #063c4d;
+  border: solid #0089b4 4px;
+  margin-bottom: 64px;
+  padding: 48px 24px;
+}
+
+.blueBorderComponent {
+  flex-direction: column;
+  align-items: start;
+  gap: 18px;
+  border-radius: 32px;
+  justify-content: center;
+
+  border: solid #0089b4 4px;
+
+  padding: 48px 24px;
+}
+
+.video {
+  width: 100%;
+  height: 100vh;
+}
